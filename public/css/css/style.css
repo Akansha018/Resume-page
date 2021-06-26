@@ -1,0 +1,44 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(to right, #ec38bc , #7303c0), #ce79ff;
+}
+.container{
+    height: 500px;
+    width: 60%;
+}
+.login{
+    /* position: absolute; */
+    height: 550px;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px;
+    margin: 60px auto;
+}
+form{
+    background: rgba(0,0,0,0.6);
+    padding: 50px;
+}
+.avatar img{
+    border: 2px solid #fff;
+    height: 120px;
+    width: 120px;
+}
+#email, #pswd , #emailHelp, #check{
+    color: #fff;
+}
+
+.mb-3{
+    margin: 10px auto;
+}
+
+#img1 , #img2 , #img3{
+    border: none;
+    /* width: 100px; */
+    height: 100px;
+}
+
+.carousel slide{
+    height: 200px;
+}
+
